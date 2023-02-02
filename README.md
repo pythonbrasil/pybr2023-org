@@ -1,4 +1,4 @@
-# Organização Python Brasil 2022 
+# Organização Python Brasil 2023
 
 [![Weekly Team Sync](https://github.com/pythonbrasil/pybr2023-org/actions/workflows/ISSUE_CREATION_WORKFLOW.yml/badge.svg?branch=main)](https://github.com/pythonbrasil/pybr2023-org/actions/workflows/ISSUE_CREATION_WORKFLOW.yml)
 
