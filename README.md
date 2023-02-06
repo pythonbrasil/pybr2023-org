@@ -10,7 +10,7 @@ Abaixo estão as informações resumidas da organização.
 
 **Data Oficial do Evento:** 30 out. à 05 nov. 2023
 
-**Local:** 
+**Local:** [Pavilhões festa da uva](https://goo.gl/maps/Mq417JFtiUSCEYHm6)
 
 Para acompanhar as atividades em andamento, acesse este [link](https://github.com/orgs/pythonbrasil/projects/5). 
 
