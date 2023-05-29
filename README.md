@@ -2,7 +2,7 @@
 
 [![Weekly Team Sync](https://github.com/pythonbrasil/pybr2023-org/actions/workflows/ISSUE_CREATION_WORKFLOW.yml/badge.svg?branch=main)](https://github.com/pythonbrasil/pybr2023-org/actions/workflows/ISSUE_CREATION_WORKFLOW.yml)
 
-Oi, que massa que tu chegou aqui nesse repositório. Este é o projeto de organização do evento "Python Nordeste", caso você queira colaborar para que o evento aconteça, fique a vontade para se responsabilizar por uma das tarefas ([issue aberta](https://github.com/pythonbrasil/pybr2023-org/issues)). Pedimos que se atribua a issue, mas caso não consiga comente informando que a realizará.
+Oi, que massa que tu chegou aqui nesse repositório. Este é o projeto de organização do evento "Python Brasil", caso você queira colaborar para que o evento aconteça, fique a vontade para se responsabilizar por uma das tarefas ([issue aberta](https://github.com/pythonbrasil/pybr2023-org/issues)). Pedimos que se atribua a issue, mas caso não consiga comente informando que a realizará.
 
 Abaixo estão as informações resumidas da organização.
 
@@ -16,7 +16,7 @@ Para acompanhar as atividades em andamento, acesse este [link](https://github.co
 
 ## Reuniões
 
-**Organização Geral**: Quinzenal às quarta-feira das 19:00 às 20:30 (GMT -3) no Google Meet.
+**Organização Geral**: Semanal às quarta-feira das 19:00 às 20:30 (GMT -3) no Google Meet.
 
 ## Grupos de trabalho
 | Grupo | Descrição | Pessoas Responsáveis |
