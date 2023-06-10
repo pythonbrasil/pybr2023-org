@@ -62,7 +62,7 @@ jobs:
         id: body
         run: |
           data='${{steps.date.outputs.date}}'
-          old_body='${{steps.extract.outputs.body}}
+          old_body='${{steps.extract.outputs.body}}'
           new_body=$(echo $old_body | sed -e "s/{{data}}/$data/")
           echo "::set-output name=body::$new_body"
           
