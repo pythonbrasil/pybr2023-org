@@ -42,7 +42,7 @@ jobs:
       issues: write
     steps:
       - name: Extract issue template and generate title
-        uses: imjohnbo/extract-issue-template-fields@v0.0.1
+        uses: imjohnbo/extract-issue-template-fields@v1
         id: extract
         with:
           path: .github/ISSUE_TEMPLATE/reuniao.md
@@ -57,6 +57,7 @@ jobs:
           year=$(date -d "next $DATE_WEEKDAY" +%Y)
           meeting_date="$day de $month de $year"
           echo "::set-output name=date::$meeting_date"
+
       - name: Create meeting issue
         uses: imjohnbo/issue-bot@v3
         with:
@@ -64,5 +65,5 @@ jobs:
           labels: ${{ steps.extract.outputs.labels }}
           title: "[Reunião] Geral: ${{ steps.date.outputs.date }}"
           body: ${{ steps.extract.outputs.body }}
-          pinned: true
+          pinned: false
           close-previous: false
