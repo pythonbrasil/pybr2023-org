@@ -4,6 +4,7 @@ about: Registro de reunião, desde a criação da pauta até registro das partic
   e decisões tomadas
 title: "[Reunião] <Grupo de trabalho ou tema da reunião>: <Data>"
 labels: reunião
+project: 5
 assignees: ''
 
 ---
