@@ -58,13 +58,13 @@ jobs:
           meeting_date="$day de $month de $year"
           echo "::set-output name=date::$meeting_date"
 
-      - name: Popule body date
-        id: body
-        run: |
-          data='${{steps.date.outputs.date}}'
-          old_body='${{steps.extract.outputs.extract}}'
-          new_body=$(echo $old_body | sed -e "s/{{data}}/$data/")
-          echo "::set-output name=body::$new_body"
+      # - name: Popule body date
+      #   id: body
+      #   run: |
+      #     data='${{steps.date.outputs.date}}'
+      #     old_body='${{steps.extract.outputs.extract}}''
+      #     new_body=$(echo $old_body | sed -e "s/{{data}}/$data/")
+      #     echo "::set-output name=body::$new_body"
           
       - name: Create meeting issue
         uses: imjohnbo/issue-bot@v3
@@ -72,6 +72,6 @@ jobs:
           assignees: ${{ steps.extract.outputs.assignees }}
           labels: ${{ steps.extract.outputs.labels }}
           title: "[Reunião] Geral: ${{ steps.date.outputs.date }}"
-          body: ${{ steps.body.outputs.body }}
+          body: ${{ steps.extract.outputs.extract }}
           pinned: false
           close-previous: false
