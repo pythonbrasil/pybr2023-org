@@ -1,5 +1,7 @@
 ---
 name: Reunião
+about: Registro de reunião, desde a criação da pauta até registro das participantes
+  e decisões tomadas
 description: Registro de reunião, desde a criação da pauta até registro das participantes
   e decisões tomadas
 title: "[Reunião] <Grupo de trabalho ou tema da reunião>: <Data>"
