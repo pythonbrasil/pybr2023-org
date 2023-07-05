@@ -1,6 +1,6 @@
 ---
 name: Reunião
-about: Registro de reunião, desde a criação da pauta até registro das participantes
+description: Registro de reunião, desde a criação da pauta até registro das participantes
   e decisões tomadas
 title: "[Reunião] <Grupo de trabalho ou tema da reunião>: <Data>"
 labels: reunião
@@ -13,7 +13,6 @@ _[Remover antes de abrir o ticket] Este template deve ser editado com os itens a
 
 # Reunião PyBR 2023
 
-- Data: {{data}}
 - Participantes:
   - Nome e Sobrenome (@Github ou E-mail)
 
