@@ -57,15 +57,7 @@ jobs:
           year=$(date -d "next $DATE_WEEKDAY" +%Y)
           meeting_date="$day de $month de $year"
           echo "::set-output name=date::$meeting_date"
-
-      - name: Popule body date
-        id: body
-        run: |
-          data="${{steps.date.outputs.date}}"
-          old_body="${{steps.extract.outputs.body}}"
-          new_body=$(echo $old_body | sed -e "s/{{data}}/$data/")
-          echo "::set-output name=body::$new_body"
-          
+         
       - name: Create meeting issue
         uses: imjohnbo/issue-bot@v3
         with:
